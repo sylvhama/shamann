@@ -1,0 +1,10 @@
+{
+  "name": "shamann",
+  "main": [
+    "assets/stylesheets/shamann.css"
+  ],
+  "ignore": [],
+  "dependencies": {
+    "foundation-sites": "~6.2.0"
+  }
+}
