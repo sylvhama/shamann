@@ -111,7 +111,7 @@ gulp.task('uncss', function () {
         .pipe(uncss({
             html: ['index.html']
         }))
-        .pipe(gulp.dest('./assets/stylesheets/uncss/'));
+        .pipe(gulp.dest('./assets/uncss/'));
 });
 
 // Minify HTML
