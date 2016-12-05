@@ -23,8 +23,9 @@ var isProduction = !!(argv.production);
 
 // Browsers to target when prefixing CSS.
 var COMPATIBILITY = [
-  'ie >= 9',
-  'Android >= 2.3'
+  'ie >= 10',
+  'iOS >= 7',
+  'Android >= 4'
 ];
 
 // File paths to various assets are defined here.
